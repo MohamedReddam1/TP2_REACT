@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Tp2_react from './tp2_react/TP2_REACT';
+import React, { useState } from 'react';
+import TodoListApp from './tp3_react/TodoListApp';
+
 
 function App() {
+  
   return (
     <div className="App">
-      <Tp2_react/>
+      <TodoListApp/>
     </div>
   );
 }
