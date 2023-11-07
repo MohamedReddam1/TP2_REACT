@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import TodoListApp from './tp3_react/TodoListApp';
+import Tp2_react from './tp2_react/TP2_REACT';
 
 
 function App() {
   
   return (
     <div className="App">
-      <TodoListApp/>
+      <Tp2_react/>
     </div>
   );
 }
